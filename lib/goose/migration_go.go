@@ -23,8 +23,8 @@ type templateData struct {
 
 func init() {
 	gob.Register(PostgresDialect{})
-	gob.Register(MySqlDialect{})
-	gob.Register(Sqlite3Dialect{})
+	//gob.Register(MySqlDialect{})
+	//gob.Register(Sqlite3Dialect{})
 }
 
 //
